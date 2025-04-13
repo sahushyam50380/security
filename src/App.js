@@ -22,7 +22,7 @@ import MyCompany from "./Employee/MyCompany";
 import CreateCompany from "./Employee/CreateCompany";
 import MyPackages from "./Employee/MyPackages";
 import EmployerSettings from "./Employee/EmployerSetting";
-
+import ClientSidebar from "./Pages/ClientsideSidebar"
 function App() {
   return (
     <Router>
@@ -40,6 +40,8 @@ function App() {
           <Route path="/chat" element={<Chat />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/manage" element={<ProjectManagementPage />} />
+          <Route path="/ClientSidebar" element={<ClientSidebar />} />
+
 
 
 

@@ -1,27 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Sidebar from "./Pages/Sidebar";
-import Dashboard from "./Pages/Dashboard";
-import MyServicesPage from "./Pages/MyServices";
-import ProposalsPage from "./Pages/ProposalsPage";
-import DisputeHistory from "./Pages/DisputeHistory";
-import MyPackage from "./Pages/MyPackage";
-import Wallet from "./Pages/Wallet";
-import ProfileSettings from "./Pages/ProfileSettings";
-import SkillsPage from "./Pages/SkillPage";
-import SettingsPage from "./Pages/SettingsPage";
-import Chat from "./Pages/Chat";
-import Portfolio from "./Pages/Portfolie";
-import ProjectManagementPage from "./Pages/ProjectManagement";
-import EmployeeSidebar from "./Employee/EmployeeSidebar";
-import EmployerDashboard from "./Employee/EmployerDashboard";
-import MyProjects from "./Employee/MyProjects";
-import CreateProject from "./Employee/CreateProject";
-import MyServices from "./Employee/MyServices";
-import DisputeHistoryPage from "./Employee/DisputeHistoryPage";
-import MyCompany from "./Employee/MyCompany";
-import CreateCompany from "./Employee/CreateCompany";
-import MyPackages from "./Employee/MyPackages";
-import EmployerSettings from "./Employee/EmployerSetting";
+import { BrowserRouter as Router } from "react-router-dom";
 import ClientSidebar from "./Pages/ClientsideSidebar"
 function App() {
   return (
@@ -72,9 +49,8 @@ function App() {
 
         </Routes>
       </div>
-  </Router>
-);
-
+    </Router>
+  );
 }
 
 export default App;

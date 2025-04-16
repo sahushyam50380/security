@@ -1,11 +1,12 @@
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ClientSidebar from "./pages/ClientsideSidebar"
 
 function App() {
   return (
     <Router>
-      <div>
-        Hello
-      </div>
+        <Routes>
+            <Route path="/ClientSidebar" element={<ClientSidebar/>} />
+        </Routes>
     </Router>
   );
 }
